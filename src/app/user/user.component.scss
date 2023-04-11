@@ -1,0 +1,11 @@
+.user-profile-container {
+  width: 200px;
+  height: 150px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

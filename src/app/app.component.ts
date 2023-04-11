@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from './user/user.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'required-input';
+  public user: User = {
+    name: 'Fred',
+    age: 246,
+    birthday: '07/04/1776'
+  };
+
+  public numbers = [1, 2 ,3 ,4 ,5];
 }
